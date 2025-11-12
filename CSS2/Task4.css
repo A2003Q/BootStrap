@@ -1,0 +1,128 @@
+.upper{
+  background-color: rgba(111, 3, 3, 0.668);       /* brown background */
+  height: 50vh;                  /* half of the screen height (vh = viewport height) */
+   display: flex;                 /* use flexbox for centering */
+  justify-content: center;       /* center horizontally */
+  align-items: center;           /* center vertically */
+  color: rgb(8, 1, 1);                  /* text color (optional for contrast) */
+}
+
+/* Style for the text */
+#h2 h1 {
+  font-weight: bold;             /* make text bold */
+  text-align: center;           /* ensure centered text */
+  width: 500%;
+}
+
+.lower{
+  background-color:rgb(204, 126, 126);   
+   height: 50vh;       
+  color: rgb(8, 1, 1); 
+}
+.hs{
+text-align: left;
+}
+.links{
+   padding-top: 20px;
+  display: flex  ;                 /* use flexbox for centering */
+  justify-content:center;       /* center horizontally */
+  align-items: center;           /* center vertically */
+  gap: 30px;
+}
+
+#h3 h2{
+ font-weight: bold;  
+}
+
+.h3 h3{
+ font-weight: bold;  
+ color: #532929;
+}
+a{
+    color: rgb(68, 88, 31);
+    text-decoration: none;
+}
+
+.blue{
+    background-color: rgb(136, 136, 254);
+    display: flex;                     /* use flexbox for centering */
+  justify-content: center;           /* center horizontally */
+  align-items: center;   
+   height: 100vh;    
+}
+.register{
+    background-color: rgb(233, 233, 233);
+    padding: 10px; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;         /* stack items vertically */
+     gap: 10px; 
+}
+
+#title{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 62);
+}
+
+#subtitle{
+    text-align: center;
+    color: rgb(0, 0, 62);
+}
+
+#button{
+    text-align: center;
+    align-self: center;
+    background-color:rgb(136, 136, 254); 
+    width: 100px;
+    border-radius: 5px;
+   border-color: rgb(136, 136, 254); 
+}
+
+.input{
+   border-color:  rgb(136, 136, 254);
+   border-radius: 5px;
+ 
+}
+
+.white{
+    background-color: white;
+    display: flex;                     /* use flexbox for centering */
+  justify-content: center;           /* center horizontally */
+  align-items: center;  
+  height: 100vh; 
+    
+}
+
+.contact{
+    background-color: rgb(89, 150, 234);
+     color:  white;
+      display: flex;
+    flex-direction:column;         /* stack items vertically */
+     gap: 10px; 
+     padding: 25px;
+     width: 400px;
+     border-radius: 20px;
+     border-color: black;
+}
+
+#contact_h2{
+    align-self: center;
+}
+
+#textarea{
+ width: 100%;       /* full width of the container */
+   
+    height: 150px;
+}
+
+#send{
+    background-color: darkblue;
+    align-self: first baseline;
+    color: azure;
+    border-radius: 5px;
+}
+
+
+
+
