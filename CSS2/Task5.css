@@ -67,3 +67,26 @@
  border: 1px dotted red;
 }
 
+
+.Fixed {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* so image stays inside this box */
+  background-color: #f2f2f6fc; /* just to visualize area */
+  padding: 20px;
+  height: 200px; /* example height */
+  width: 470px;
+}
+
+
+.Img {
+  position: absolute;
+  top: 10px;    
+  right: 10px;    
+  width: 100px;   
+  height: auto;
+ 
+}
+
+
+
